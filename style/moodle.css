@@ -1,75 +1,70 @@
-/**
- * Please keep in mind that since Moodle 2.0 all of the CSS for the whole of
- * combined into one file, stripped of white spaces, then delivered.
- *
- * Please visit the CSS coding style page:
- * https://docs.moodle.org/dev/CSS_coding_style
- */
-
-h1
-{
-    color:#147a7a;
+h1 {
+  color: #147a7a;
 }
 
-h2
-{
-    color:#147a7a;
+h2 {
+  color: #147a7a;
+}
+
+.ddmood-footer {
+  width: 100%;
+  color: #F9F2EA;
+  background-color: #383D47;
+  padding: 50px 20px;
+  font-size: small;
 }
 
 .navbar.fixed-top {
-    padding-top: 0;
-    padding-bottom: 0;
-    box-shadow: none;
-    border-bottom: #147a7b 1px solid;
-    background-color:#e0f8f8 !important;
-    align-items: stretch;
-    height: 61px;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: none;
+  border-bottom: var(--fos-flint-70, rgba(56, 61, 71, 0.7)) 1px solid;
+  background-color: #F9F2EA !important;
+  align-items: stretch;
+  height: 61px;
 }
 
-.moremenu .nav-link.active 
-
-{
-    border-bottom-color: #147a7a;
-} 
-
-.coursesearchbox
-{
-    padding: 0.5rem;
-    border: 1px solid #137a7c66;
-    margin-bottom: 0.5rem;
-    border-radius: 0.5rem;
+.moremenu .nav-link {
+  color: #383D47;
+}
+.moremenu .nav-link.active {
+  border-bottom-color: #5C3873;
+}
+.moremenu .nav-link:hover {
+  border-bottom-color: #5C3873;
 }
 
-.adress span , .contact span , .social span{
-   color: #FFF; 
-   font-weight: 800; 
-   padding-bottom: 10px; 
-   margin-bottom: 20px;
-   display: block;
-   text-transform: uppercase;
-   font-size: 16px;
-   letter-spacing: 3px;
-}
- 
-.adress li p , .contact li a , .social li a{
-    color:#FFF;
-    letter-spacing: 2px;
-    text-decoration:none;
-    font-size:15px;
+.coursesearchbox {
+  padding: 0.5rem;
+  border: 1px solid rgba(19, 122, 124, 0.4);
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
 }
 
-.social li{
-    float:left;
+.adress span, .contact span, .social span {
+  color: #FFF;
+  font-weight: 800;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
 }
 
-.adress , .contact , .social {
-    list-style: none;
+.adress li p, .contact li a, .social li a {
+  color: #FFF;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
-.ddmood-footer
-{
-    width: 100%;
-    background-color: #ddd;
-    padding: 20px;
-    font-size: small;
+.social li {
+  float: left;
 }
+
+.adress, .contact, .social {
+  list-style: none;
+}
+
+/*# sourceMappingURL=moodle.css.map */

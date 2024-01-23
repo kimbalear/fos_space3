@@ -90,10 +90,11 @@ class theme_ddmood_mod_assign_renderer extends mod_assign\output\renderer
         $o .= $this->output->container_start('gradingsummary');
 
         $o .= "<div class='alert alert-info'>TEST</div>";
+        // btn custom
         $o .= \html_writer::start_tag('button', array('type'=>'button','class' => 'btn btn-primary','data-toggle'=>'collapse','data-target'=>'#gscollapse','aria-controls'=>'gscollapse'));
         $o .= get_string('displaysummary', 'theme_ddmood');
         $o .= \html_writer::end_tag('button');
-
+        //-
         $o .= \html_writer::start_tag('div', array('class' => 'collapse','id'=>'gscollapse'));
 
         $o .= $this->output->heading(get_string('gradingsummary', 'assign'), 3);
