@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Ricoshae Boost Child Theme';
+$string['pluginname'] = 'Landing page';
 
 $string['showlogintext'] = 'Display login text';
 $string['showlogintext_desc'] = 'Show or hide the additional login page text';

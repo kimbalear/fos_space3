@@ -682,12 +682,7 @@ aside[id^=block-region-side-] .block_recentlyaccesseditems .dashboard-card-deck 
 }
 
 .drawer-toggles .drawer-toggler .btn {
-  border-radius: 200px;
   padding: 16px;
-}
-.drawer-toggles .drawer-toggler .btn .icon {
-  width: auto;
-  height: auto;
 }
 .drawer-toggles .drawer-left-toggle .btn:hover {
   padding-left: 20px;
