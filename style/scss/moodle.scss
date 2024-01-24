@@ -1,41 +1,57 @@
-@import "base/variables",
-"base/typography",
-"base/mixins";
+// -------------------------------
+// Custom
+@import "base/variables";
+@import "base/mixins";
+@import "base/typography";
 
 @import "layouts/footer";
+@import "layouts/page-wrapper";
 
 @import "components/navBar";
+@import "components/table";
 
-.coursesearchbox
-{
-    padding: 0.5rem;
-    border: 1px solid #137a7c66;
-    margin-bottom: 0.5rem;
-    border-radius: 0.5rem;
+@import "components/bootstrap/card";
+
+@import "components/moodle/blocks";
+@import "components/moodle/drawer.scss";
+
+@import "layouts/layout.scss";
+
+.coursesearchbox {
+  padding: 0.5rem;
+  border: 1px solid $FOS-Aubergine;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
 }
 
-.adress span , .contact span , .social span{
-   color: #FFF; 
-   font-weight: 800; 
-   padding-bottom: 10px; 
-   margin-bottom: 20px;
-   display: block;
-   text-transform: uppercase;
-   font-size: 16px;
-   letter-spacing: 3px;
-}
- 
-.adress li p , .contact li a , .social li a{
-    color:#FFF;
-    letter-spacing: 2px;
-    text-decoration:none;
-    font-size:15px;
+.adress span,
+.contact span,
+.social span {
+  color: #fff;
+  font-weight: 800;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
 }
 
-.social li{
-    float:left;
+.adress li p,
+.contact li a,
+.social li a {
+  color: #fff;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
-.adress , .contact , .social {
-    list-style: none;
+.social li {
+  float: left;
+}
+
+.adress,
+.contact,
+.social {
+  list-style: none;
 }

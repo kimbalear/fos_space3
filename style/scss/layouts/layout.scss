@@ -1,0 +1,51 @@
+.layout {
+    &.fullscreen {
+        background-color: $bg;
+    }
+    
+}
+
+#page.drawers {
+    .main-inner {
+        background-color: $bg;
+    }
+}
+
+.drawer-toggles {
+
+    .drawer-toggler {
+
+        .btn {
+            border-radius: 200px;
+            padding: 16px;
+            //background-color: $primary;
+            .icon {
+                width: auto;
+                height: auto;
+            }
+            &:focus {
+
+            }
+
+        }
+    }
+
+    .drawer-left-toggle {
+
+        .btn {
+
+            &:hover {
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .drawer-right-toggle {
+
+        .btn {
+
+            &:hover {
+            }
+        }
+    }
+}

@@ -21,5 +21,12 @@
   }
 }
 
-
-  
+.secondary-navigation {
+  background-color: $bg;
+  .moremenu{
+    background-color: $bg;
+    .nav-tabs {
+      background-color: $bg;
+  }
+  }
+}
