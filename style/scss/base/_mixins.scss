@@ -3,11 +3,11 @@
 }
 
 @mixin font-body($family, $size, $weight: normal) {
-    font-family: "Isidora Sans Black", sans-serif;
-    font-size: $size;
-    font-weight: $weight;
-    font-weight: 900;
-  }
+  font-family: "Isidora Sans Black", sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  font-weight: 900;
+}
 
 // Mixin para media queries
 @mixin respond-to($breakpoint, $width: null) {

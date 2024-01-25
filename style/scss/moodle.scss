@@ -12,8 +12,11 @@
 
 @import "components/bootstrap/card";
 
+@import "components/moodle/core";
+@import "components/moodle/variables";
 @import "components/moodle/blocks";
 @import "components/moodle/drawer.scss";
+@import "components/moodle/filemanager";
 //@import "components/moodle/search";
 
 @import "layouts/layout.scss";
