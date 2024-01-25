@@ -3,15 +3,15 @@ body {
   #page-wrapper #page {
     background-color: $FOS-Aubergine-bk;
     #page-content{
-      background-color: $bg;
+      background-color: $body-bg;
     }
 
     .main-inner {
-      background-color: $bg;
+      background-color: $body-bg;
     }
 
     #region-main {
-      background-color: $bg;
+      background-color: $body-bg;
     }
   }
 }

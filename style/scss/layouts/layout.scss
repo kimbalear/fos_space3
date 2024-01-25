@@ -1,13 +1,13 @@
 .layout {
     &.fullscreen {
-        background-color: $bg;
+        background-color: $body-bg;
     }
     
 }
 
 #page.drawers {
     .main-inner {
-        background-color: $bg;
+        background-color: $body-bg;
     }
 }
 

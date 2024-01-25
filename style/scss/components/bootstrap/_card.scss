@@ -1,12 +1,12 @@
 //
 // Base styles
 //
-$card-bg: $bg;
+$card-bg: $body-bg;
 $card-border-width: 0.5px;
-$card-border-color: $bg;
+$card-border-color: $body-bg;
 $card-color: $primary;
 $card-cap-color: $FOS-Flint;
-$card-cap-bg: $bg;
+$card-cap-bg: $body-bg;
 .card {
     position: relative;
     display: flex;
@@ -52,7 +52,7 @@ $card-cap-bg: $bg;
     min-height: 1px;
     //padding: $card-spacer-x;
     color: $card-color;
-    background-color: $bg;
+    background-color: $body-bg;
   }
   .block .block-cards .course-info-container
   .card-title {
@@ -145,7 +145,7 @@ $card-cap-bg: $bg;
   // Card deck
   
   .card-deck {
-    background-color: $bg;
+    background-color: $body-bg;
     .card {
       background-color: $white;
     }
