@@ -23,7 +23,7 @@
 
 .coursesearchbox {
   padding: 0.5rem;
-  border: 1px solid $FOS-Aubergine;
+  border: 1px solid $primary;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
 }
@@ -58,4 +58,110 @@
 .contact,
 .social {
   list-style: none;
+}
+
+.block_calendar_month {
+  .card-body {
+    background-color: rgba ($white, 0.5);
+    @include font-body("Isidora Sans Regular", 1rem);
+  }
+}
+
+.btn-primary {
+  background-color: $primary;
+  border: 1px solid $FOS-Aubergine-bk;
+  &:hover {
+    background-color: $FOS-Aubergine-bk;
+    color: $primary;
+    border-color: $primary;
+  }
+}
+
+a {
+  color: $FOS-Caribbean-Green;
+}
+a.hover {
+  color: $primary;
+}
+.calendartable {
+  color: $primary;
+}
+
+.form-control {
+  border-color: $primary;
+}
+.search-icon {
+  border: 1px solid $primary;
+}
+.btn-outline-secondary {
+  color: $FOS-Aubergine-bk;
+  background-color: $primary;
+}
+
+.pair-key {
+  color: $primary;
+}
+
+table {
+  margin-top: 20px;
+}
+// todo
+.custom-select {
+  border-color: $primary;
+}
+
+.dropdown-menu {
+  .dropdown-item:hover {
+    background-color: $primary;
+  }
+  .dropdown-item.active {
+    background-color: $primary;
+  }
+}
+//------
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: $primary;
+  border: 1px solid $primary;
+  &:hover {
+    background-color: $red;
+    color: $white;
+    border-color: $black;
+  }
+}
+
+.alert-warning {
+  background-color: #DDD3E1!important;
+}
+
+.alert-warning, .environmenttable .warn {
+  margin-top: 8px;
+  padding: 8px;
+  color: #7d5a29;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+
+.drawer-right {
+  background-color: #F3EFF5;
+  border-left: 1px solid #DDD3E1;
+  .card-body{
+      background-color: #F3EFF5;
+      border: none;
+  }
+}
+
+.drawer-left {
+  background-color: #F3EFF5;
+  border-right: 1px solid #DDD3E1;
+}
+
+.courseindex {
+  .courseindex-section{
+      .courseindex-item-content {
+          .pageitem{
+              background-color: #5C3873;
+          }
+      }
+  }
 }

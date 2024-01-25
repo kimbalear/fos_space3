@@ -24,32 +24,27 @@
 
 
 h1 {
-  @include font-header('Isidora Sans Black');
-  color: $FOS-Aubergine;
+  @include font-header-Sans_Black('Isidora Sans Black');
+  color: $FOS-Aubergine!important;
 }
 
 h2 {
-  @include font-header('Isidora Sans Black');
-  color: $FOS-Aubergine;
+  @include font-header-Sans_Black('Isidora Sans Black');
+  color: $FOS-Aubergine!important;
 }
 
 h3 {
-  @include font-header('Isidora Sans Black');
-  color: $FOS-Aubergine;
+  @include font-header-Sans_Black('Isidora Sans Black');
+  color: $FOS-Aubergine!important;
 }
 
 h4{
-  @include font-header('Isidora Sans Black');
-  color: $FOS-Aubergine;
+  @include font-header-Sans_Black('Isidora Sans Black');
+  color: $FOS-Aubergine!important;
 }
 
 
 h5 {
-  @include font-header('Isidora Sans Black');
-  color: $FOS-Aubergine;
-}
-
-h6 {
-  @include font-header('Isidora Sans Black');
-  color: $FOS-Aubergine;
+  @include font-header-Sans_Black('Isidora Sans Black');
+  color: $FOS-Aubergine!important;
 }

@@ -81,32 +81,27 @@
 }
 h1 {
   font-family: "Isidora Sans Black", sans-serif;
-  color: #5c3873;
+  color: #5c3873 !important;
 }
 
 h2 {
   font-family: "Isidora Sans Black", sans-serif;
-  color: #5c3873;
+  color: #5c3873 !important;
 }
 
 h3 {
   font-family: "Isidora Sans Black", sans-serif;
-  color: #5c3873;
+  color: #5c3873 !important;
 }
 
 h4 {
   font-family: "Isidora Sans Black", sans-serif;
-  color: #5c3873;
+  color: #5c3873 !important;
 }
 
 h5 {
   font-family: "Isidora Sans Black", sans-serif;
-  color: #5c3873;
-}
-
-h6 {
-  font-family: "Isidora Sans Black", sans-serif;
-  color: #5c3873;
+  color: #5c3873 !important;
 }
 
 .ddmood-footer {
@@ -138,7 +133,7 @@ body #page-wrapper #page #region-main {
   padding-bottom: 0;
   box-shadow: none;
   border-bottom: var(--fos-flint-70, rgba(56, 61, 71, 0.7)) 1px solid;
-  background-color: #f9f2ea !important;
+  background-color: #DDD3E1 !important;
   align-items: stretch;
   height: 61px;
 }
@@ -147,6 +142,9 @@ body #page-wrapper #page #region-main {
   color: #383d47;
 }
 .moremenu .nav-link.active {
+  border-bottom-color: #5c3873;
+}
+.moremenu .nav-link.active:hover {
   border-bottom-color: #5c3873;
 }
 .moremenu .nav-link:hover {
@@ -164,10 +162,14 @@ body #page-wrapper #page #region-main {
 }
 
 .generaltable thead tr th {
+  background-color: #F3EFF5;
   border: none;
 }
 .generaltable thead tr td {
   border: none;
+}
+.generaltable tbody {
+  background-color: #F3EFF5;
 }
 .generaltable tbody tr th {
   border: none;
@@ -208,7 +210,7 @@ body #page-wrapper #page #region-main {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  color: #007bff;
+  color: #5c3873;
   background-color: #f3eff5;
 }
 
@@ -442,8 +444,8 @@ a:not([class]):focus,
 .activityinstance > a:focus {
   outline: 0.2rem solid transparent;
   color: #212529;
-  background-color: white;
-  box-shadow: 0 -0.2rem white, 0 0.2rem #343a40;
+  background-color: #d8c7e3;
+  box-shadow: 0 -0.2rem #d8c7e3, 0 0.2rem #343a40;
 }
 .aalink:focus:hover, a.autolink:focus:hover,
 #page-footer a:not([class]):focus:hover,
@@ -576,7 +578,7 @@ button.close:focus:hover,
 
 .red,
 .notifyproblem {
-  color: #ffc107;
+  color: #fd7e14;
 }
 
 .green,
@@ -1005,7 +1007,7 @@ table.mod_index {
 * Completion progress report
 */
 .completion-expired {
-  color: #ffc107;
+  color: #fd7e14;
 }
 
 .completion-expected {
@@ -1094,7 +1096,7 @@ span.flagged-tag,
 tr.flagged-tag,
 span.flagged-tag a,
 tr.flagged-tag a {
-  color: #ffc107;
+  color: #fd7e14;
 }
 
 .tag-management-table td,
@@ -1583,7 +1585,7 @@ audio.mediaplugin_html5audio {
 }
 
 .moodle-dialogue-exception .param-stacktrace .stacktrace-line {
-  color: #ffc107;
+  color: #fd7e14;
   font-size: 0.875rem;
 }
 
@@ -2103,7 +2105,7 @@ ul.badges {
 }
 
 .connecting {
-  color: #ffc107;
+  color: #fd7e14;
 }
 
 #page-badges-award .recipienttable tr td {
@@ -2612,7 +2614,7 @@ input[disabled] {
 }
 
 .matchtext {
-  background-color: #cce5ff;
+  background-color: #c1a4d3;
   color: #f3eff5;
   height: 1.5rem;
 }
@@ -2657,7 +2659,7 @@ input[disabled] {
   border-bottom: 2px solid transparent;
 }
 .emoji-picker .category-button.selected {
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #5c3873;
 }
 .emoji-picker .emojis-container,
 .emoji-picker .search-results-container {
@@ -2779,7 +2781,7 @@ input[disabled] {
 
 .visual-scroll-x {
   scrollbar-width: thin;
-  scrollbar-color: #007bff #cce5ff;
+  scrollbar-color: #5c3873 #c1a4d3;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 .visual-scroll-x::-webkit-scrollbar {
@@ -2788,11 +2790,11 @@ input[disabled] {
   appearance: none;
 }
 .visual-scroll-x::-webkit-scrollbar-thumb {
-  background-color: #007bff;
+  background-color: #5c3873;
   border-right: 1px solid #fff;
 }
 .visual-scroll-x::-webkit-scrollbar-track {
-  background-color: #cce5ff;
+  background-color: #c1a4d3;
   border-right: 1px solid #fff;
 }
 
@@ -2823,7 +2825,7 @@ body.dragging .dragging {
 }
 
 .overlay-preview {
-  border: 2px dashed #007bff;
+  border: 2px dashed #5c3873;
   position: absolute;
   top: 0;
   left: 0;
@@ -2843,14 +2845,14 @@ body.dragging .dragging {
   margin: 0 auto;
   width: 100%;
   max-width: 600px;
-  background-color: #007bff;
+  background-color: #5c3873;
   color: #fff;
   text-align: center;
   font-size: 1.25rem;
 }
 
 .overlay-preview-borders {
-  outline: 2px dashed #007bff;
+  outline: 2px dashed #5c3873;
 }
 
 .waitstate {
@@ -3477,9 +3479,9 @@ aside[id^=block-region-side-] .block_recentlyaccesseditems .dashboard-card-deck 
 }
 
 .fp-viewbar:not(.disabled) a.checked {
-  background-color: #545b62;
-  color: color-yiq(#545b62);
-  border-color: #4e555b;
+  background-color: #b1bbc4;
+  color: color-yiq(#b1bbc4);
+  border-color: #aab4bf;
 }
 
 .fp-viewbar.disabled a {
@@ -4372,6 +4374,110 @@ a.ygtvspacer:hover {
 .contact,
 .social {
   list-style: none;
+}
+
+.block_calendar_month .card-body {
+  background-color: rgba #fff, 0.5;
+  font-family: "Isidora Sans Black", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-weight: 900;
+}
+
+.btn-primary {
+  background-color: #5c3873;
+  border: 1px solid #f3eff5;
+}
+.btn-primary:hover {
+  background-color: #f3eff5;
+  color: #5c3873;
+  border-color: #5c3873;
+}
+
+a {
+  color: #60ad8f;
+}
+
+a.hover {
+  color: #5c3873;
+}
+
+.calendartable {
+  color: #5c3873;
+}
+
+.form-control {
+  border-color: #5c3873;
+}
+
+.search-icon {
+  border: 1px solid #5c3873;
+}
+
+.btn-outline-secondary {
+  color: #f3eff5;
+  background-color: #5c3873;
+}
+
+.pair-key {
+  color: #5c3873;
+}
+
+table {
+  margin-top: 20px;
+}
+
+.custom-select {
+  border-color: #5c3873;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #5c3873;
+}
+.dropdown-menu .dropdown-item.active {
+  background-color: #5c3873;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: #5c3873;
+  border: 1px solid #5c3873;
+}
+.btn-primary.disabled:hover,
+.btn-primary:disabled:hover {
+  background-color: #dc3545;
+  color: #fff;
+  border-color: #000;
+}
+
+.alert-warning {
+  background-color: #DDD3E1 !important;
+}
+
+.alert-warning, .environmenttable .warn {
+  margin-top: 8px;
+  padding: 8px;
+  color: #7d5a29;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+
+.drawer-right {
+  background-color: #F3EFF5;
+  border-left: 1px solid #DDD3E1;
+}
+.drawer-right .card-body {
+  background-color: #F3EFF5;
+  border: none;
+}
+
+.drawer-left {
+  background-color: #F3EFF5;
+  border-right: 1px solid #DDD3E1;
+}
+
+.courseindex .courseindex-section .courseindex-item-content .pageitem {
+  background-color: #5C3873;
 }
 
 /*# sourceMappingURL=moodle.css.map */
