@@ -14,6 +14,7 @@
 
 @import "components/moodle/blocks";
 @import "components/moodle/drawer.scss";
+//@import "components/moodle/search";
 
 @import "layouts/layout.scss";
 
@@ -55,5 +56,3 @@
 .social {
   list-style: none;
 }
-
-// todo: drawer-toggler drawer-left-toggle open-nav d-print-none

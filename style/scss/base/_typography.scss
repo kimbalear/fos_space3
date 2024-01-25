@@ -33,8 +33,23 @@ h2 {
   color: $FOS-Aubergine;
 }
 
+h3 {
+  @include font-header('Isidora Sans Black');
+  color: $FOS-Aubergine;
+}
+
+h4{
+  @include font-header('Isidora Sans Black');
+  color: $FOS-Aubergine;
+}
+
 
 h5 {
+  @include font-header('Isidora Sans Black');
+  color: $FOS-Aubergine;
+}
+
+h6 {
   @include font-header('Isidora Sans Black');
   color: $FOS-Aubergine;
 }
