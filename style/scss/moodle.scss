@@ -78,6 +78,7 @@
 
 a {
   color: $FOS-Caribbean-Green;
+
 }
 a.hover {
   color: $primary;
@@ -204,4 +205,32 @@ body {
       background-color: $body-bg;
     }
   }
+}
+
+.popover.footer {
+  .popover-body {
+      padding: 0;
+      .footer-section {
+          a {
+              color: $FOS-Caribbean-Green;
+              text-decoration: none;
+              .icon {
+                  color: $FOS-Caribbean-Green;
+              }
+              &:focus {
+                  text-decoration: none;
+              }
+          }
+      }
+  }
+}
+
+.btn-link {
+  color: $FOS-Caribbean-Green;
+  text-decoration: none;
+
+  .icon {
+      color: $FOS-Caribbean-Green;
+  }
+
 }
