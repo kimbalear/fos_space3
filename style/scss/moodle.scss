@@ -1,11 +1,10 @@
 // -------------------------------
 // Custom
-@import "base/variables";
 @import "base/mixins";
+@import "base/variables";
 @import "base/typography";
 
 @import "layouts/footer";
-@import "layouts/page-wrapper";
 
 @import "components/navBar";
 @import "components/table";
@@ -63,7 +62,7 @@
 .block_calendar_month {
   .card-body {
     background-color: rgba ($white, 0.5);
-    @include font-body("Isidora Sans Regular", 1rem);
+    //@include font-body("Isidora Sans Regular", 1rem);
   }
 }
 
@@ -108,6 +107,12 @@ table {
 // todo
 .custom-select {
   border-color: $primary;
+}
+
+.input-group-append{
+  .btn-submit{
+      border: 1px solid $primary;
+  }
 }
 
 .dropdown-menu {
@@ -179,5 +184,24 @@ table {
               }
           }
       }
+  }
+}
+
+body {
+  @include font-body("Isidora Sans Regular");
+    background-color: $FOS-Aubergine-bk;
+  #page-wrapper #page {
+    background-color: $FOS-Aubergine-bk;
+    #page-content{
+      background-color: $body-bg;
+    }
+
+    .main-inner {
+      background-color: $body-bg;
+    }
+
+    #region-main {
+      background-color: $body-bg;
+    }
   }
 }

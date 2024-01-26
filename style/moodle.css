@@ -1,12 +1,4 @@
 @charset "UTF-8";
-/*$custom-control-indicator-checked-disabled-bg: rgba(
-  theme-color("primary"),
-  0.5
-) !default;*/
-/*$custom-control-indicator-active-bg: lighten(
-  $component-active-bg,
-  35%
-) !default;*/
 .shadow-light {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -61,6 +53,14 @@
   transform: rotate(180deg);
 }
 
+/*$custom-control-indicator-checked-disabled-bg: rgba(
+  theme-color("primary"),
+  0.5
+) !default;*/
+/*$custom-control-indicator-active-bg: lighten(
+  $component-active-bg,
+  35%
+) !default;*/
 @font-face {
   font-family: "Isidora Sans Regular";
   src: url("/fonts/isidora-sans/IsidoraSans-Regular.otf") format("opentype"), url("/fonts/isidora-sans/IsidoraSans-Regular.ttf") format("truetype");
@@ -108,24 +108,39 @@ h5 {
   width: 100%;
   color: #f9f2ea;
   background-color: #383d47;
-  padding: 50px 20px;
+  padding: 30px 20px;
   font-size: small;
 }
-
-body {
-  background-color: #f3eff5;
+.ddmood-footer .grid-footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 8px 0px;
+  grid-auto-flow: row;
+  align-items: center;
+  grid-template-areas: "footer_top" "footer_bottom";
 }
-body #page-wrapper #page {
-  background-color: #f3eff5;
+.ddmood-footer .grid-footer .footer_top {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
+  gap: 0px 8px !important;
+  grid-template-areas: "logo_footer menu_footer";
+  justify-self: stretch;
+  align-self: stretch;
+  grid-area: footer_top;
 }
-body #page-wrapper #page #page-content {
-  background-color: #f3eff5;
+.ddmood-footer .grid-footer .footer_top .logo_footer {
+  grid-area: logo_footer;
 }
-body #page-wrapper #page .main-inner {
-  background-color: #f3eff5;
+.ddmood-footer .grid-footer .footer_top .menu_footer {
+  grid-area: menu_footer;
+  align-self: center;
 }
-body #page-wrapper #page #region-main {
-  background-color: #f3eff5;
+.ddmood-footer .grid-footer .footer_bottom {
+  align-self: stretch;
+  grid-area: footer_bottom;
 }
 
 .navbar.fixed-top {
@@ -4378,10 +4393,6 @@ a.ygtvspacer:hover {
 
 .block_calendar_month .card-body {
   background-color: rgba #fff, 0.5;
-  font-family: "Isidora Sans Black", sans-serif;
-  font-size: 1rem;
-  font-weight: normal;
-  font-weight: 900;
 }
 
 .btn-primary {
@@ -4429,6 +4440,10 @@ table {
 
 .custom-select {
   border-color: #5c3873;
+}
+
+.input-group-append .btn-submit {
+  border: 1px solid #5c3873;
 }
 
 .dropdown-menu .dropdown-item:hover {
@@ -4493,6 +4508,23 @@ table {
 }
 .courseindex .courseindex-section .courseindex-item-content .pageitem:hover a {
   color: #5C3873 !important;
+}
+
+body {
+  font-family: "Isidora Sans Regular", sans-serif;
+  background-color: #f3eff5;
+}
+body #page-wrapper #page {
+  background-color: #f3eff5;
+}
+body #page-wrapper #page #page-content {
+  background-color: #f3eff5;
+}
+body #page-wrapper #page .main-inner {
+  background-color: #f3eff5;
+}
+body #page-wrapper #page #region-main {
+  background-color: #f3eff5;
 }
 
 /*# sourceMappingURL=moodle.css.map */

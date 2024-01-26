@@ -231,7 +231,3 @@ class theme_ddmood_mod_assign_renderer extends mod_assign\output\renderer
     }
 
 }
-
-
-
-
