@@ -22,4 +22,3 @@ $THEME->sheets = array(
 $THEME->haseditswitch = true;
 
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
-

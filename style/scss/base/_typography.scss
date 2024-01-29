@@ -26,11 +26,13 @@
 h1 {
   @include font-header-Sans_Black('Isidora Sans Black');
   color: $FOS-Aubergine!important;
+  font-size: 1.6rem!important;
 }
 
 h2 {
   @include font-header-Sans_Black('Isidora Sans Black');
   color: $FOS-Aubergine!important;
+  font-size: 1.2rem!important;
 }
 
 h3 {

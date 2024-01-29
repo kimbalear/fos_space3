@@ -82,11 +82,13 @@
 h1 {
   font-family: "Isidora Sans Black", sans-serif;
   color: #5c3873 !important;
+  font-size: 1.6rem !important;
 }
 
 h2 {
   font-family: "Isidora Sans Black", sans-serif;
   color: #5c3873 !important;
+  font-size: 1.2rem !important;
 }
 
 h3 {
@@ -4466,48 +4468,49 @@ table {
 }
 
 .alert-warning {
-  background-color: #DDD3E1 !important;
+  background-color: #ddd3e1 !important;
 }
 
-.alert-warning, .environmenttable .warn {
+.alert-warning,
+.environmenttable .warn {
   margin-top: 8px;
   padding: 8px;
   color: #7d5a29;
-  background-color: #FFF;
-  border-color: #FFF;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .drawer-right {
-  background-color: #F3EFF5;
-  border-left: 1px solid #DDD3E1;
+  background-color: #f3eff5;
+  border-left: 1px solid #ddd3e1;
 }
 .drawer-right .card-body {
-  background-color: #F3EFF5;
+  background-color: #f3eff5;
   border: none;
 }
 
 .drawer-left {
-  background-color: #F3EFF5;
-  border-right: 1px solid #DDD3E1;
+  background-color: #f3eff5;
+  border-right: 1px solid #ddd3e1;
 }
 
 .courseindex .courseindex-section .pageitem {
-  background-color: #5C3873;
+  background-color: #5c3873;
 }
 .courseindex .courseindex-section .pageitem:hover {
-  background-color: #DDD3E1;
+  background-color: #ddd3e1;
 }
 .courseindex .courseindex-section .pageitem:hover a {
-  color: #5C3873 !important;
+  color: #5c3873 !important;
 }
 .courseindex .courseindex-section .courseindex-item-content .pageitem {
-  background-color: #5C3873;
+  background-color: #5c3873;
 }
 .courseindex .courseindex-section .courseindex-item-content .pageitem:hover {
-  background-color: #DDD3E1;
+  background-color: #ddd3e1;
 }
 .courseindex .courseindex-section .courseindex-item-content .pageitem:hover a {
-  color: #5C3873 !important;
+  color: #5c3873 !important;
 }
 
 body {
@@ -4547,6 +4550,28 @@ body #page-wrapper #page #region-main {
 }
 .btn-link .icon {
   color: #60ad8f;
+}
+
+.bnt-custom-exp {
+  margin-bottom: 20px !important;
+}
+
+.btn-link {
+  color: #f06043 !important;
+}
+
+.navbar-brand .logo {
+  display: none;
+}
+
+.navbar-brand::after {
+  content: "";
+  display: block;
+  background-image: url("http://foselearning.knowtechture.com/theme/ddmood/pix/FOSlogo.png") !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 31px;
 }
 
 /*# sourceMappingURL=moodle.css.map */

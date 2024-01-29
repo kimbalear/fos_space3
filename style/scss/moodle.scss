@@ -78,7 +78,6 @@
 
 a {
   color: $FOS-Caribbean-Green;
-
 }
 a.hover {
   color: $primary;
@@ -110,9 +109,9 @@ table {
   border-color: $primary;
 }
 
-.input-group-append{
-  .btn-submit{
-      border: 1px solid $primary;
+.input-group-append {
+  .btn-submit {
+    border: 1px solid $primary;
   }
 }
 
@@ -137,63 +136,64 @@ table {
 }
 
 .alert-warning {
-  background-color: #DDD3E1!important;
+  background-color: #ddd3e1 !important;
 }
 
-.alert-warning, .environmenttable .warn {
+.alert-warning,
+.environmenttable .warn {
   margin-top: 8px;
   padding: 8px;
   color: #7d5a29;
-  background-color: #FFF;
-  border-color: #FFF;
+  background-color: #fff;
+  border-color: #fff;
 }
 
 .drawer-right {
-  background-color: #F3EFF5;
-  border-left: 1px solid #DDD3E1;
-  .card-body{
-      background-color: #F3EFF5;
-      border: none;
+  background-color: #f3eff5;
+  border-left: 1px solid #ddd3e1;
+  .card-body {
+    background-color: #f3eff5;
+    border: none;
   }
 }
 
 .drawer-left {
-  background-color: #F3EFF5;
-  border-right: 1px solid #DDD3E1;
+  background-color: #f3eff5;
+  border-right: 1px solid #ddd3e1;
 }
 
 .courseindex {
-  .courseindex-section{
+  .courseindex-section {
+    .pageitem {
+      background-color: #5c3873;
+      &:hover {
+        background-color: #ddd3e1;
+        a {
+          color: #5c3873 !important;
+        }
+      }
+    }
+
+    .courseindex-item-content {
       .pageitem {
-          background-color: #5C3873;
-          &:hover{
-                  background-color: #DDD3E1;
-                  a{
-                      color: #5C3873!important;
-                  }
-              }
-      }
-      
-      .courseindex-item-content {
-          .pageitem{
-              background-color: #5C3873;
-              &:hover{
-                  background-color: #DDD3E1;
-                  a{
-                      color: #5C3873!important;
-                  }
-              }
+        background-color: #5c3873;
+        &:hover {
+          background-color: #ddd3e1;
+          a {
+            color: #5c3873 !important;
           }
+        }
       }
+    }
   }
 }
 
 body {
   @include font-body("Isidora Sans Regular");
-    background-color: $FOS-Aubergine-bk;
+  background-color: $FOS-Aubergine-bk;
   #page-wrapper #page {
     background-color: $FOS-Aubergine-bk;
-    #page-content{
+    #page-content {
       background-color: $body-bg;
     }
 
@@ -209,19 +209,19 @@ body {
 
 .popover.footer {
   .popover-body {
-      padding: 0;
-      .footer-section {
-          a {
-              color: $FOS-Caribbean-Green;
-              text-decoration: none;
-              .icon {
-                  color: $FOS-Caribbean-Green;
-              }
-              &:focus {
-                  text-decoration: none;
-              }
-          }
+    padding: 0;
+    .footer-section {
+      a {
+        color: $FOS-Caribbean-Green;
+        text-decoration: none;
+        .icon {
+          color: $FOS-Caribbean-Green;
+        }
+        &:focus {
+          text-decoration: none;
+        }
       }
+    }
   }
 }
 
@@ -230,7 +230,29 @@ body {
   text-decoration: none;
 
   .icon {
-      color: $FOS-Caribbean-Green;
+    color: $FOS-Caribbean-Green;
   }
+}
 
+.bnt-custom-exp {
+  margin-bottom: 20px !important;
+}
+.btn-link {
+  color: $FOS-Coral!important;
+}
+
+.navbar-brand .logo {
+  display: none;  // Esto oculta el logo actual
+}
+
+.navbar-brand::after {
+  content: '';
+  display: block;
+  //http://foselearning.knowtechture.com
+  //http://localhost
+  background-image: url('http://foselearning.knowtechture.com/theme/ddmood/pix/FOSlogo.png')!important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 44px;  // Ajusta al tamaño de tu logo
+  height: 31px; // Ajusta al tamaño de tu logo
 }
