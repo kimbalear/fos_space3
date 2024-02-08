@@ -80,30 +80,30 @@
   font-style: normal;
 }
 h1 {
-  font-family: "Isidora Sans Black", sans-serif;
-  color: #00d4d9 !important;
+  font-family: "Isidora Sans Alt-Black", sans-serif;
+  color: #383d47 !important;
   font-size: 1.6rem !important;
 }
 
 h2 {
-  font-family: "Isidora Sans Black", sans-serif;
-  color: #00d4d9 !important;
+  font-family: "Isidora Sans Alt-Black", sans-serif;
+  color: #383d47 !important;
   font-size: 1.2rem !important;
 }
 
 h3 {
-  font-family: "Isidora Sans Black", sans-serif;
-  color: #00d4d9 !important;
+  font-family: "Isidora Sans Medium", sans-serif;
+  color: #383d47 !important;
 }
 
 h4 {
-  font-family: "Isidora Sans Black", sans-serif;
-  color: #00d4d9 !important;
+  font-family: "Isidora Sans Medium", sans-serif;
+  color: #383d47 !important;
 }
 
 h5 {
-  font-family: "Isidora Sans Black", sans-serif;
-  color: #00d4d9 !important;
+  font-family: "Isidora Sans Medium", sans-serif;
+  color: #383d47 !important;
 }
 
 .ddmood2-footer {
@@ -150,7 +150,7 @@ h5 {
   padding-bottom: 0;
   box-shadow: none;
   border-bottom: var(--fos-flint-70, rgba(56, 61, 71, 0.7)) 1px solid;
-  background-color: #adfafc !important;
+  background-color: #ABFDFF !important;
   align-items: stretch;
   height: 61px;
 }
@@ -169,24 +169,24 @@ h5 {
 }
 
 .secondary-navigation {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 .secondary-navigation .moremenu {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 .secondary-navigation .moremenu .nav-tabs {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 
 .generaltable thead tr th {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
   border: none;
 }
 .generaltable thead tr td {
   border: none;
 }
 .generaltable tbody {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 .generaltable tbody tr th {
   border: none;
@@ -201,9 +201,9 @@ h5 {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #eaffff;
+  background-color: #F9FFFF;
   background-clip: border-box;
-  border: 0.5px solid #eaffff;
+  border: 0.5px solid #F9FFFF;
 }
 .card > hr {
   margin-right: 0;
@@ -228,7 +228,7 @@ h5 {
   flex: 1 1 auto;
   min-height: 1px;
   color: #00d4d9;
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 
 .card-subtitle {
@@ -242,13 +242,13 @@ h5 {
 .card-header {
   margin-bottom: 0;
   color: #383d47;
-  background-color: #eaffff !important;
-  border-bottom: 0.5px solid #eaffff;
+  background-color: #F9FFFF !important;
+  border-bottom: 0.5px solid #F9FFFF;
 }
 .card-footer {
   color: #383d47;
   background-color: #fff !important;
-  border-top: 0.5px solid #eaffff;
+  border-top: 0.5px solid #F9FFFF;
 }
 .card-header-tabs {
   border-bottom: 0;
@@ -270,7 +270,7 @@ h5 {
 }
 
 .card-deck {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 .card-deck .card {
   background-color: #fff;
@@ -364,7 +364,7 @@ h5 {
 /* core.less */
 #region-main {
   overflow-y: visible;
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 
 /*
@@ -1575,7 +1575,7 @@ audio.mediaplugin_html5audio {
   padding: 0.5rem;
 }
 .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-bd body {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 
 .moodle-dialogue-base .moodle-dialogue-fullscreen .moodle-dialogue-content {
@@ -2391,7 +2391,7 @@ h3.sectionname .inplaceeditable.inplaceeditingon .editinstructions {
 }
 #region-flat-nav .nav {
   margin-right: 15px;
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 
 .footer-dark a {
@@ -2402,7 +2402,7 @@ h3.sectionname .inplaceeditable.inplaceeditingon .editinstructions {
   color: #fff;
 }
 .footer-dark a:focus .icon {
-  color: #eaffff;
+  color: #F9FFFF;
 }
 
 .btn-footer-popover {
@@ -2425,11 +2425,11 @@ h3.sectionname .inplaceeditable.inplaceeditingon .editinstructions {
   padding: 0;
 }
 .popover.footer .popover-body .footer-section a {
-  color: #eaffff;
+  color: #F9FFFF;
   text-decoration: underline;
 }
 .popover.footer .popover-body .footer-section a .icon {
-  color: #eaffff;
+  color: #F9FFFF;
 }
 .popover.footer .popover-body .footer-section a:focus {
   text-decoration: none;
@@ -2632,7 +2632,7 @@ input[disabled] {
 
 .matchtext {
   background-color: #a6fdff;
-  color: #eaffff;
+  color: #F9FFFF;
   height: 1.5rem;
 }
 
@@ -3061,7 +3061,7 @@ blockquote {
 
 .block .block-controls .dropdown-toggle {
   /* So that the caret takes the colour of the icon. */
-  color: #eaffff;
+  color: #F9FFFF;
 }
 
 [data-region=blocks-column] {
@@ -3190,7 +3190,7 @@ aside[id^=block-region-side-] .block_recentlyaccesseditems .dashboard-card-deck 
   display: none;
 }
 .block_recentlyaccesseditems a.dashboard-card small {
-  color: #eaffff;
+  color: #F9FFFF;
 }
 
 .block_myoverview .content {
@@ -4341,11 +4341,11 @@ a.ygtvspacer:hover {
 }
 
 .layout.fullscreen {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 
 #page.drawers .main-inner {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 
 .drawer-toggles .drawer-toggler .btn {
@@ -4399,10 +4399,10 @@ a.ygtvspacer:hover {
 
 .btn-primary {
   background-color: #00d4d9;
-  border: 1px solid #eaffff;
+  border: 1px solid #F9FFFF;
 }
 .btn-primary:hover {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
   color: #00d4d9;
   border-color: #00d4d9;
 }
@@ -4428,7 +4428,7 @@ a.hover {
 }
 
 .btn-outline-secondary {
-  color: #eaffff;
+  color: #F9FFFF;
   background-color: #00d4d9;
   border-color: #00d4d9;
 }
@@ -4468,7 +4468,7 @@ table {
 }
 
 .alert-warning {
-  background-color: #eaffff !important;
+  background-color: #F9FFFF !important;
 }
 
 .alert-warning,
@@ -4481,16 +4481,16 @@ table {
 }
 
 .drawer-right {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
   border-left: 1px solid #00d4d9;
 }
 .drawer-right .card-body {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
   border: none;
 }
 
 .drawer-left {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
   border-right: 1px solid #00d4d9;
 }
 
@@ -4498,7 +4498,7 @@ table {
   background-color: #00d4d9;
 }
 .courseindex .courseindex-section .pageitem:hover {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 .courseindex .courseindex-section .pageitem:hover a {
   color: #00d4d9 !important;
@@ -4507,7 +4507,7 @@ table {
   background-color: #00d4d9;
 }
 .courseindex .courseindex-section .courseindex-item-content .pageitem:hover {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 .courseindex .courseindex-section .courseindex-item-content .pageitem:hover a {
   color: #00d4d9 !important;
@@ -4515,19 +4515,19 @@ table {
 
 body {
   font-family: "Isidora Sans Regular", sans-serif;
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 body #page-wrapper #page {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 body #page-wrapper #page #page-content {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 body #page-wrapper #page .main-inner {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 body #page-wrapper #page #region-main {
-  background-color: #eaffff;
+  background-color: #F9FFFF;
 }
 
 .popover.footer .popover-body {
