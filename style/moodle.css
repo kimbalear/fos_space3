@@ -6123,7 +6123,8 @@ body {
 }
 body #page-wrapper #page {
   background-color: #fafffd;
-  min-height: auto;
+  margin-bottom: 0;
+  min-height: fit-content;
 }
 body #page-wrapper #page #page-content {
   background-color: #fafffd;
